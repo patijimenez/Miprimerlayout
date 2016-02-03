@@ -1,0 +1,29 @@
+
+body{
+	padding: 0;
+	margin:0;
+}
+li{
+	display: inline-block;
+}
+
+/*Líneas entre h4:"Nuestras coders"*/
+#ncod{
+  width: 60px;
+
+
+}
+.container{
+	width: 700px;
+	margin:0 auto;
+}
+
+.coders{
+	display: inline-block;
+}
+	
+.text{
+	border: 1px solid black;
+	text-align: center;
+
+}
