@@ -1,16 +1,65 @@
-
-.contenedor{
-	border: 1px solid black;
-	width: 700px;
-	margin: 0 auto;
+h1{
+text-align: center;
 }
-.divimagen{
+.espacioencab{
+margin-left: 20px;
+margin-bottom: 40px;
+}
+/*Contenedor del body*/
+.contenedor{
+border: 1px solid black;
+width: 700px;
+margin: 0 auto;
 }
 .inlineblock{
-	display: inline-block;
+display: inline-block;
 }
 .contenedorimg{
-	width: 500px;
-	margin: 0 auto;
+width: 700px;
+margin: 0 auto;
+margin-left: 100px;
+margin-bottom: 50px;
 }
-
+.circulo{
+border: 1px;
+margin: 0;
+padding: 0;
+border-radius: 500px;
+overflow: hidden;
+margin-left: 250px;
+margin-top: 20px;
+}
+.centratexto{
+width: 500px;
+height: 200px;
+margin-left: 100px;
+text-align: justify;
+}
+.cajagris{
+background-color: #686868;
+margin-left: 40px;
+height: 40px;
+}
+.cajatext{
+color: white;
+margin-left: 8px;
+}
+.espacioc{
+margin-top: 20px;
+}
+.cajahtml{
+width: 500px;
+}
+.cajacss{
+width: 400px;
+}
+.cajava{
+width: 300px;
+}
+.imgtam{
+width: 160px;
+height: 100px;
+margin-right: 15px;
+margin-bottom: 15px;
+}
+.
