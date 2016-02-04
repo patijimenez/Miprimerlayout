@@ -1,29 +1,86 @@
-
+/*SELECTORES*/
 body{
-	padding: 0;
-	margin:0;
+padding: 0;
+margin:0 auto;
 }
 li{
-	display: inline-block;
+display: inline-block;
 }
-
-/*Líneas entre h4:"Nuestras coders"*/
-#ncod{
-  width: 60px;
-
-
+p{
+font-family: sans-serif;
+font-size: 18px;
+text-align: center;
 }
+span{
+text-align: center;
+}
+/*CLASES*/
 .container{
-	width: 700px;
-	margin:0 auto;
+width: 700px;
+margin:0 auto;
 }
-
+/*línea vertical*/
+.linver{
+border-left: 2px solid black;
+width: 2px;
+height: 10px;
+display: inline;
+}
 .coders{
-	display: inline-block;
+display: inline-block;
 }
-	
-.text{
-	border: 1px solid black;
-	text-align: center;
+.divparrafo{
+width: 400px;
+height: 160px ;
+margin-left: 150px;
+}
+.nomap{
+position: absolute;
+margin-top: 180px;
+margin-left: 80px;
+}
+.imgrupal{
+margin-bottom: 20px;
+}
+.imgespacio{
+	margin-left: 20px;
 
+}
+
+.coderimg{
+	-webkit-filter: grayscale(50%);
+}
+.bottomimg{
+	margin-bottom: 20px;
+}
+.leftimg{
+	margin-left: 15px;
+}
+
+/*Id*/
+/*líneas que encierran al párrafo*/
+#parrdesc{
+width: 60px;
+top: 20px;
+}
+/*Linea de: "Nuestras coders"*/
+#lineancod{
+color: black;
+margin-bottom: 50px;
+border: 2px solid black;
+width: 50px;
+margin-left: 0px;
+
+}
+#linea+menu{
+border: 1px solid black;
+}
+#parrnomap{
+font-size: 14px;
+color: white;
+}
+/*li*/
+#lirl{
+margin-left:40px;
+margin-right: 40px;
 }

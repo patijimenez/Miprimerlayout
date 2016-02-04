@@ -1,0 +1,16 @@
+
+.contenedor{
+	border: 1px solid black;
+	width: 700px;
+	margin: 0 auto;
+}
+.divimagen{
+}
+.inlineblock{
+	display: inline-block;
+}
+.contenedorimg{
+	width: 500px;
+	margin: 0 auto;
+}
+
